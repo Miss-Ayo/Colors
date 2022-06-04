@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e6eff6;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.first-one {
+    margin: auto;
+    text-align: center;
+}
+
+.first-one .red {
+    background-color: red;
+    color: #fff;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.first-one a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(92, 85, 85);
+}
+
+.first-one .orange {
+    background-color: orange;
+    color: #fff;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.first-one .yellow {
+    background-color: yellow;
+    color: #fff;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.first-one .white {
+    background-color: white;
+    color: #fff;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+
+.second-one {
+    margin: auto;
+    text-align: center;
+}
+
+.second-one a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(92, 85, 85);
+}
+
+.second-one .black {
+    background-color: black;
+    color: #fff;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.second-one .green {
+    background-color: green;
+    color: #fff;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.second-one .blue {
+    background-color: blue;
+    color: #fff;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.second-one .violet {
+    background-color: violet;
+    color: #fff;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+footer {
+    margin: 50px 0 20px 0;
+}
+
+footer p {
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+footer p a {
+    text-decoration: underline;
+    color: #000;
+}
+
+@media screen and (max-width: 600px) {
+    header h1 {
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    header p {
+        font-size: 18px;
+        margin: 0 20px;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-one a {
+        margin: 62px;
+    }
+
+    .first-one .red {
+        width: 250px;
+        height: 150px;
+    }
+    .first-one .orange {
+        width: 250px;
+        height: 150px;
+    }
+    .first-one .yellow {
+        width: 250px;
+        height: 150px;
+    }
+    .first-one .white {
+        width: 250px;
+        height: 150px;
+    }
+
+    .second-one a {
+        margin: 62px;
+    }
+
+    .second-one .black {
+        width: 250px;
+        height: 150px;
+    }
+
+    .second-one .green {
+        width: 250px;
+        height: 150px;
+    }
+    .second-one .blue {
+        width: 250px;
+        height: 150px;
+    }
+    .second-one .violet {
+        width: 250px;
+        height: 150px;
+    }
+    footer p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    .first-one .red {
+        width: 600px;
+        height: 200px;
+    }
+    .first-one .orange {
+        width: 600px;
+        height: 200px;
+    }
+    .first-one .yellow {
+        width: 600px;
+        height: 200px;
+    }
+    .first-one .white {
+        width: 600px;
+        height: 200px;
+    }
+
+    .second-one .black {
+        width: 600px;
+        height: 200px;
+    }
+
+    .second-one .green {
+        width: 600px;
+        height: 200px;
+    }
+    .second-one .blue {
+        width: 600px;
+        height: 200px;
+    }
+    .second-one .violet {
+        width: 600px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    .first-one .red {
+        width: 900px;
+        height: 200px;
+    }
+    .first-one .orange {
+        width: 900px;
+        height: 200px;
+    }
+    .first-one .yellow {
+        width: 900px;
+        height: 200px;
+    }
+    .first-one .white {
+        width: 900px;
+        height: 200px;
+    }
+
+    .second-one .black {
+        width: 900px;
+        height: 200px;
+    }
+
+    .second-one .green {
+        width: 900px;
+        height: 200px;
+    }
+    .second-one .blue {
+        width: 900px;
+        height: 200px;
+    }
+    .second-one .violet {
+        width: 900px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,227 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.first {
+    margin: auto;
+    text-align: center;
+}
+
+.first h5, .second h5, .third h5, .fourth h5 {
+    display: inline-block;
+    margin: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.first .first1 {
+    background-color: #000;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.first .first2 {
+    background-color: 			#696969;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.first .first3 {
+    background-color: #002E63;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.first .first4 {
+    background-color: #555D50;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.first .first5 {
+    background-color:		#555555;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.second {
+    margin: auto;
+    text-align: center;
+}
+
+.second .second1 {
+    background-color:#36454F;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.second .second2 {
+    background-color:#414A4C;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.second .second3 {
+    background-color:#483C32;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.second .second4 {
+    background-color:#3D0C02;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.second .second5 {
+    background-color:#3C3731;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.third {
+    margin: auto;
+    text-align: center;
+}
+
+.third .third1 {
+    background-color:#3B3C36;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.third .third2 {
+    background-color:	#353839;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.third .third3 {
+    background-color:	#0E0E10;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.third .third4 {
+    background-color:	#343434;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.third .third5 {
+    background-color:	#242124;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.fourth {
+    margin: auto;
+    text-align: center;
+}
+
+.fourth .fourth1 {
+    background-color: #232B2B;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.fourth .fourth2 {
+    background-color:	#1B1B1B;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.fourth .fourth3 {
+    background-color: #1A1110;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.fourth .fourth4 {
+    background-color:	#1B1B1B;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.fourth .fourth5 {
+    background-color: 	#232B2B;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+@media screen and (max-width:600px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:900px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+}

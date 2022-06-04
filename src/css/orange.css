@@ -1,0 +1,227 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.first {
+    margin: auto;
+    text-align: center;
+}
+
+.first h5, .second h5, .third h5, .fourth h5 {
+    display: inline-block;
+    margin: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(92, 85, 85);
+}
+
+
+.first .first1 {
+    background-color: #FF8000;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.first .first2 {
+    background-color: #FFA500;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.first .first3 {
+    background-color: #FF8C00;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.first .first4 {
+    background-color: #FF7900;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.first .first5 {
+    background-color:#FF4F00;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.second {
+    margin: auto;
+    text-align: center;
+}
+
+.second .second1 {
+    background-color: #F04A00;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.second .second2 {
+    background-color:#FF5800;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.second .second3 {
+    background-color:	#FF7538;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.second .second4 {
+    background-color:	#CC6600;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.second .second5 {
+    background-color:	#FFEFD5;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.third {
+    margin: auto;
+    text-align: center;
+}
+
+.third .third1 {
+    background-color:#FFE5B4;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.third .third2 {
+    background-color:#FED8B1;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.third .third3 {
+    background-color:#FBCEB1;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.third .third4 {
+    background-color:#FDBCB4;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.third .third5 {
+    background-color:	#FF9966;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.fourth {
+    margin: auto;
+    text-align: center;
+}
+
+.fourth .fourth1 {
+    background-color:	#F1B42F;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.fourth .fourth2 {
+    background-color:	#ED9121;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.fourth .fourth3 {
+    background-color: 	#FF9F00;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.fourth .fourth4 {
+    background-color:#EE7F2D;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+.fourth .fourth5 {
+    background-color: #FF8200;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 10px rgb(161, 160, 160);
+    margin: 20px 0;
+}
+
+@media screen and (max-width:600px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:900px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+}
